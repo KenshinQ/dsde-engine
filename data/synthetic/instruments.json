@@ -1,0 +1,16 @@
+[
+  {
+    "instrument_id": "SYN001.SH",
+    "exchange": "XSHG",
+    "list_date": "2019-01-02",
+    "delist_date": null,
+    "is_synthetic": true
+  },
+  {
+    "instrument_id": "SYN002.SH",
+    "exchange": "XSHG",
+    "list_date": "2019-01-02",
+    "delist_date": "2020-06-01",
+    "is_synthetic": true
+  }
+]

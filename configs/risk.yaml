@@ -1,0 +1,7 @@
+no_leverage: true
+cash_floor: 0.0
+single_name_cap: 0.25
+kelly_fraction: 0.5
+kelly_note: "half_kelly default; Full Kelly point estimate forbidden"
+preservation_floor_annual: 0.04
+robust_elg_quantile: 0.25

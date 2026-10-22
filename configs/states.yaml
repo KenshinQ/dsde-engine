@@ -1,0 +1,11 @@
+fundamental_states:
+  - growth
+  - stable
+  - deteriorating
+  - recovering
+market_states:
+  - risk_on
+  - neutral
+  - risk_off
+factorization: factorized
+max_joint_free_params: 0

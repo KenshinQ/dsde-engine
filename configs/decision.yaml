@@ -1,0 +1,5 @@
+action_grid: [0.0, 0.05, 0.10, 0.15, 0.20, 0.25]
+position_deadband: 0.03
+min_elg_improvement: 0.0005
+mpc_horizon_steps: 1
+single_name_cap: 0.25

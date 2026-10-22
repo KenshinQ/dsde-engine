@@ -1,0 +1,25 @@
+primary_metric: net_geometric_growth_vs_B2_B4
+baselines:
+  - B2
+  - B4
+secondary_metrics:
+  - max_drawdown
+  - left_tail_q05
+  - turnover
+  - net_costs
+market_regime_gate:
+  enabled: true
+  requires_independent_oos: true
+  gate_passed: false
+  freeze_fields:
+    - metric
+    - threshold
+    - universe
+    - window
+    - registered_at
+  fallback_market_state: neutral
+  tre_probe_ref: /workspace/tre-factor-probe/summary.md
+  note: >-
+    Price-volume market regime must pass frozen OOS gate before sizing;
+    TRE F1/RMOM probes closed as weak/not robust.
+allow_investment_claims_without_adapter: false

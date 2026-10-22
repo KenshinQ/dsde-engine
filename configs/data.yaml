@@ -1,0 +1,5 @@
+calendar: XSHG
+timezone: Asia/Shanghai
+pit_required: true
+price_adjust: total_return
+placeholder_note: "Phase 0 placeholder; no real providers"

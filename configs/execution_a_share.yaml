@@ -1,0 +1,8 @@
+t_plus_one: true
+respect_limit_up_down: true
+commission_bps: 3.0
+stamp_duty_sell_bps: 5.0
+slippage_bps: 5.0
+signal_time: close
+execution_time: next_open
+position_deadband_enforced: true

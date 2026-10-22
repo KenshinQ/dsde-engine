@@ -1,0 +1,2 @@
+{"entity_id": "SYN001.SH", "feature_name": "analyst_note", "value": "initial", "event_time": "2020-01-10T00:00:00", "available_at": "2020-01-10T12:00:00", "revision_id": "r0", "is_synthetic": true, "quality_flags": ["ok"]}
+{"entity_id": "SYN001.SH", "feature_name": "analyst_note", "value": "updated", "event_time": "2020-01-10T00:00:00", "available_at": "2020-01-25T12:00:00", "revision_id": "r1", "is_synthetic": true, "quality_flags": ["revised"]}
